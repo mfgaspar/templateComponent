@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:ExportManifest xmlns:ns2="http://www.pentaho.com/schema/">
+    <ExportManifestInformation exportDate="03-02-2015 05:10:58 GMT" exportBy="admin" rootFolder="/public/cde/" manifestVersion="2"/>
+    <ExportManifestEntity path="templateComponent">
+        <ExportManifestProperty>
+            <EntityMetaData name="templateComponent" createdDate="2015-02-02T14:46:31.553Z" isFolder="true" path="templateComponent" isHidden="false" locale="en_US" title="templateComponent"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="templateComponent/component.xml">
+        <ExportManifestProperty>
+            <EntityMetaData name="component.xml" createdDate="2015-02-02T14:46:31.654Z" isFolder="false" path="templateComponent/component.xml" isHidden="false" locale="en_US" title="component"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="templateComponent/fonts">
+        <ExportManifestProperty>
+            <EntityMetaData name="fonts" createdDate="2015-02-02T14:46:31.830Z" isFolder="true" path="templateComponent/fonts" isHidden="false" locale="en_US" title="fonts"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="templateComponent/fonts/icomoon.eot">
+        <ExportManifestProperty>
+            <EntityMetaData name="icomoon.eot" createdDate="2015-02-02T14:46:31.889Z" isFolder="false" path="templateComponent/fonts/icomoon.eot" isHidden="false" locale="en_US" title="icomoon"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="templateComponent/fonts/icomoon.svg">
+        <ExportManifestProperty>
+            <EntityMetaData name="icomoon.svg" createdDate="2015-02-02T14:46:31.993Z" isFolder="false" path="templateComponent/fonts/icomoon.svg" isHidden="true" locale="en_US" title="icomoon"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="templateComponent/fonts/icomoon.ttf">
+        <ExportManifestProperty>
+            <EntityMetaData name="icomoon.ttf" createdDate="2015-02-02T14:46:32.085Z" isFolder="false" path="templateComponent/fonts/icomoon.ttf" isHidden="false" locale="en_US" title="icomoon"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="templateComponent/fonts/icomoon.woff">
+        <ExportManifestProperty>
+            <EntityMetaData name="icomoon.woff" createdDate="2015-02-02T14:46:32.198Z" isFolder="false" path="templateComponent/fonts/icomoon.woff" isHidden="false" locale="en_US" title="icomoon"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="templateComponent/imgs">
+        <ExportManifestProperty>
+            <EntityMetaData name="imgs" createdDate="2015-02-02T14:46:32.291Z" isFolder="true" path="templateComponent/imgs" isHidden="false" locale="en_US" title="imgs"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="templateComponent/libs">
+        <ExportManifestProperty>
+            <EntityMetaData name="libs" createdDate="2015-02-02T14:46:32.359Z" isFolder="true" path="templateComponent/libs" isHidden="false" locale="en_US" title="libs"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="templateComponent/style.css">
+        <ExportManifestProperty>
+            <EntityMetaData name="style.css" createdDate="2015-02-02T14:46:32.439Z" isFolder="false" path="templateComponent/style.css" isHidden="true" locale="en_US" title="style"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="templateComponent/templateComponent.css">
+        <ExportManifestProperty>
+            <EntityMetaData name="templateComponent.css" createdDate="2015-02-02T14:46:32.605Z" isFolder="false" path="templateComponent/templateComponent.css" isHidden="true" locale="en_US" title="templateComponent"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="templateComponent/templateComponent.js">
+        <ExportManifestProperty>
+            <EntityMetaData name="templateComponent.js" createdDate="2015-02-02T14:46:32.842Z" isFolder="false" path="templateComponent/templateComponent.js" isHidden="true" locale="en_US" title="templateComponent"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+</ns2:ExportManifest>

@@ -1,0 +1,89 @@
+.templateWrapper {
+}
+
+.sectionTitle {
+    padding: 10px;
+    border: 1px solid #4D658D;
+    background: #4D658D;
+    color: #e5e5e5;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 4px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.templateRow {
+    float: left;
+    margin: 0.5%;
+    padding: 8px;
+    background: #e5e5e5;
+    width: 10.1%;
+    min-width: 115px;
+    border: 2px solid transparent;
+    border-radius: 10px 0px 10px 0px;
+    box-shadow: 3px 3px 8px 1px rgba(0,0,0,0.17);
+    -moz-box-shadow: 3px 3px 8px 1px rgba(0,0,0,0.17);
+    -webkit-box-shadow: 3px 3px 8px 1px rgba(0,0,0,0.17);
+}
+
+.templateRow.clickable {
+    cursor: pointer;
+}
+
+.templateRow.clickable:hover {
+    border: 2px solid rgba(43,75,111,0.8);
+    background: #fafafa;
+} 
+
+.title {
+    font-size: 45px;
+    text-align: center;
+    width: 100%;
+    color:#7089A4;
+}
+
+.desc {
+    font-size: 9px;
+    text-align: center;
+    width: 100%;
+}
+
+.value {
+    margin-top: 10px;
+}
+
+.value div {
+    float: left;
+}
+
+.trend {
+    width: 25%;
+    height: 16px;
+    border-radius: 100% font-size: 20px;
+    padding: 0px;
+    margin: 0px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.trend:before {
+    width: 20%;
+    height: 16px;
+    border-radius: 100%
+    font-size: 20px;
+}
+
+.trend.up {
+    color: green;
+}
+
+.trend.down {
+    color: red;
+}
+
+.number {
+    width: 75%;
+    font-size: 16px;
+    text-align: right;
+} 

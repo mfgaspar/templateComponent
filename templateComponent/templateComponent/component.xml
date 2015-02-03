@@ -1,0 +1,142 @@
+<?xml version="1.0"?>
+<DesignerComponent>
+  <Header>
+    <Name>Template Component</Name>
+    <IName>templateComponent</IName>
+    <Description>Template Component</Description>
+    <Category>OTHERCOMPONENTS</Category>
+    <CatDescription>Others</CatDescription>
+    <Type>PalleteEntry</Type>
+    <Version>1.0</Version>
+  </Header>
+  <Contents>
+    <Model>
+      <Property>title</Property>
+      <Property>executeAtStart</Property>
+      <Property>htmlObject</Property>
+      <Property name="parameters">xActionArrayParameter</Property>
+      <Definition name="chartDefinition">
+        <Property type="query">dataSource</Property>
+      </Definition>
+      <Property>preExecution</Property>
+      <Property>postExecution</Property>
+      <Property>postFetch</Property>
+      <Property>parameter</Property>
+      <Property>preChange</Property>
+      <Property>postChange</Property>
+      <Property>tooltip</Property>
+      <Property>listeners</Property>
+      <!-- START: Template Component Properties -->
+      <Property>dataHandler</Property>
+      <Property>template</Property>
+      <Property>templateType</Property>
+      <Property>eventType</Property>
+      <Property>eventHandler</Property>
+      <Property>eventSelector</Property>
+      <!-- END: Template Component Properties -->
+    </Model>
+    <Implementation>
+      <Code src="templateComponent.js"/>
+      <Styles>
+        <Style src="templateComponent.css" version="1.0">templateComponentStyle</Style>
+        <Style src="style.css" version="1.0">templateComponentStyleIcons</Style>
+      </Styles>
+      <Dependencies>
+        <!--
+        <Dependency src="libs/library.js" version="1.0">Library</Dependency>
+        -->
+      </Dependencies>
+      <CustomProperties>
+        <DesignerProperty>
+          <Header>
+            <Name>dataHandler</Name>
+            <Parent>BaseProperty</Parent>
+            <DefaultValue>function(data){Dashboards.log('Manipulationg data'); return data;}</DefaultValue>
+            <Description>A function to execute when the event is triggered</Description>
+            <Tooltip>A function to execute when the event is triggered</Tooltip>
+            <InputType>JavaScript</InputType>
+            <OutputType>Function</OutputType>
+            <Order>30</Order>
+            <Advanced>false</Advanced>
+            <Version>1.0</Version>
+          </Header>
+        </DesignerProperty> 
+        <DesignerProperty>
+          <Header>
+            <Name>template</Name>
+            <Parent>BaseProperty</Parent>
+            <DefaultValue>"function() { return "<>"}"</DefaultValue>
+            <Description>Custom Property</Description>
+            <Tooltip>Custom Property</Tooltip>
+            <InputType>String</InputType>
+            <OutputType>String</OutputType>
+            <Order>30</Order>
+            <Advanced>false</Advanced>
+            <Version>1.0</Version>
+          </Header>
+        </DesignerProperty>
+        <DesignerProperty>
+            <Header>
+                <Name>templateType</Name>
+                <Parent>BaseProperty</Parent>
+                <DefaultValue>underscore</DefaultValue>
+                <Description>Template library to use on render, choose from list.</Description>
+                <Tooltip>Template library to use on render, choose from list.</Tooltip>
+                <InputType type="valuelist" />
+                <OutputType>String</OutputType>
+                <Order>30</Order>
+                <Advanced>false</Advanced>
+                <Version>1.0</Version>
+            </Header>
+            <Values>
+                <Value display="Mustache">mustache</Value>
+                <Value display="Underscore">underscore</Value>
+            </Values>
+        </DesignerProperty>
+        <DesignerProperty>
+          <Header>
+            <Name>eventType</Name>
+            <Parent>BaseProperty</Parent>
+            <DefaultValue>click</DefaultValue>
+            <Description>One or more space-separated event types and optional namespaces</Description>
+            <Tooltip>One or more space-separated event types and optional namespaces</Tooltip>
+            <InputType>String</InputType>
+            <OutputType>String</OutputType>
+            <Order>30</Order>
+            <Advanced>false</Advanced>
+            <Version>1.0</Version>
+          </Header>
+        </DesignerProperty>
+        <DesignerProperty>
+          <Header>
+            <Name>eventHandler</Name>
+            <Parent>BaseProperty</Parent>
+            <DefaultValue>function(event){Dashboards.log('Click');}</DefaultValue>
+            <Description>A function to execute when the event is triggered</Description>
+            <Tooltip>A function to execute when the event is triggered</Tooltip>
+            <InputType>JavaScript</InputType>
+            <OutputType>Function</OutputType>
+            <Order>30</Order>
+            <Advanced>false</Advanced>
+            <Version>1.0</Version>
+          </Header>
+        </DesignerProperty> 
+
+        <DesignerProperty>
+          <Header>
+            <Name>eventSelector</Name>
+            <Parent>BaseProperty</Parent>
+            <DefaultValue>"Event Selector"</DefaultValue>
+            <Description>A selector string to filter the elements that trigger the event.</Description>
+            <Tooltip>A selector string to filter the elements that trigger the event.</Tooltip>
+            <InputType>String</InputType>
+            <OutputType>String</OutputType>
+            <Order>30</Order>
+            <Advanced>false</Advanced>
+            <Version>1.0</Version>
+          </Header>
+        </DesignerProperty>              
+      </CustomProperties>
+    </Implementation>
+  </Contents>
+</DesignerComponent>
