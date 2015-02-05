@@ -1,6 +1,8 @@
 .templateWrapper {
 }
 
+/* CARDS */
+
 .sectionTitle {
     padding: 10px;
     border: 1px solid #4D658D;
@@ -60,9 +62,9 @@
 .trend {
     width: 25%;
     height: 16px;
-    border-radius: 100% font-size: 20px;
-    padding: 0px;
-    margin: 0px;
+    border-radius: 100%;
+    padding: 0;
+    margin: 0;
     font-size: 20px;
     text-align: center;
 }
@@ -70,7 +72,7 @@
 .trend:before {
     width: 20%;
     height: 16px;
-    border-radius: 100%
+    border-radius: 100%;
     font-size: 20px;
 }
 
@@ -87,3 +89,22 @@
     font-size: 16px;
     text-align: right;
 } 
+
+/* TABLE */
+
+.message.ellipsis {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    height: 18px;
+}
+.message {
+    width: 620px;
+    text-align: justify;
+}
+
+.toggleEllipsis {
+    font-size: 10px;
+    float: right;
+    cursor: pointer;
+}

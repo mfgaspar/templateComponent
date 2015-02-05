@@ -30,10 +30,8 @@
       <Property>modelHandler</Property>
       <Property>template</Property>
       <Property>templateType</Property>
+      <Property>formatters</Property>
       <Property>events</Property>
-      <Property>eventType</Property>
-      <Property>eventHandler</Property>
-      <Property>eventSelector</Property>
       <Property>rootElement</Property>
       <Property>extendableOptions</Property>
       <!-- END: Template Component Properties -->
@@ -112,42 +110,14 @@
         </DesignerProperty>
         <DesignerProperty>
           <Header>
-            <Name>eventType</Name>
+            <Name>formatters</Name>
             <Parent>BaseProperty</Parent>
-            <DefaultValue>click</DefaultValue>
-            <Description>Event Type</Description>
-            <Tooltip>One or more space-separated event types and optional namespaces</Tooltip>
-            <InputType>String</InputType>
-            <OutputType>String</OutputType>
-            <Order>940</Order>
-            <Advanced>false</Advanced>
-            <Version>1.0</Version>
-          </Header>
-        </DesignerProperty>
-        <DesignerProperty>
-          <Header>
-            <Name>eventHandler</Name>
-            <Parent>BaseProperty</Parent>
-            <DefaultValue>function(event){Dashboards.log('Click');}</DefaultValue>
-            <Description>Event Handler</Description>
-            <Tooltip>A function to execute when the event is triggered.</Tooltip>
-            <InputType>JavaScript</InputType>
-            <OutputType>Function</OutputType>
-            <Order>950</Order>
-            <Advanced>false</Advanced>
-            <Version>1.0</Version>
-          </Header>
-        </DesignerProperty> 
-        <DesignerProperty>
-          <Header>
-            <Name>eventSelector</Name>
-            <Parent>BaseProperty</Parent>
-            <DefaultValue></DefaultValue>
-            <Description>Selector</Description>
-            <Tooltip>A jquery selector string to filter the elements that trigger the event.</Tooltip>
-            <InputType>String</InputType>
-            <OutputType>String</OutputType>
-            <Order>960</Order>
+            <DefaultValue>"[]"</DefaultValue>
+            <Description>Formatters</Description>
+            <Tooltip>Used to format data. You must define an ID and a function that will return the formatted value.</Tooltip>
+            <InputType>EditorValuesArray</InputType>
+            <OutputType>Array</OutputType>
+            <Order>935</Order>
             <Advanced>false</Advanced>
             <Version>1.0</Version>
           </Header>

@@ -891,6 +891,203 @@
     ]
    },
    {
+    "id": "aab22453-7ca0-56be-5bed-65b3be340e52",
+    "type": "LayoutRow",
+    "typeDesc": "Row",
+    "parent": "UnIqEiD",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "height",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "backgroundColor",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "roundCorners",
+      "value": "",
+      "type": "RoundCorners"
+     },
+     {
+      "name": "textAlign",
+      "value": "",
+      "type": "TextAlign"
+     },
+     {
+      "name": "cssClass",
+      "value": "section",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "c79023d0-7a47-fe5c-952b-2074d2e27209",
+    "type": "LayoutBootstrapColumn",
+    "typeDesc": "Column",
+    "parent": "aab22453-7ca0-56be-5bed-65b3be340e52",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "bootstrapExtraSmall",
+      "value": "12",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapSmall",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapMedium",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapLarge",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapCssClass",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "height",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "backgroundColor",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "roundCorners",
+      "value": "",
+      "type": "RoundCorners"
+     },
+     {
+      "name": "textAlign",
+      "value": "",
+      "type": "TextAlign"
+     },
+     {
+      "name": "cssClass",
+      "value": "sectionTitle",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "afe27e7b-2b3d-6502-fec1-58b76eb8fb78",
+    "type": "LayoutHtml",
+    "typeDesc": "Html",
+    "parent": "c79023d0-7a47-fe5c-952b-2074d2e27209",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "html",
+      "value": "Underscore template with fomatted model values\n ",
+      "type": "Html"
+     },
+     {
+      "name": "fontSize",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "color",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "fc05ed54-376d-e021-636d-c47f43eced77",
+    "type": "LayoutBootstrapColumn",
+    "typeDesc": "Column",
+    "parent": "aab22453-7ca0-56be-5bed-65b3be340e52",
+    "properties": [
+     {
+      "name": "name",
+      "value": "underscoreFormatted",
+      "type": "Id"
+     },
+     {
+      "name": "bootstrapExtraSmall",
+      "value": "12",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapSmall",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapMedium",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapLarge",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapCssClass",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "height",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "backgroundColor",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "roundCorners",
+      "value": "",
+      "type": "RoundCorners"
+     },
+     {
+      "name": "textAlign",
+      "value": "",
+      "type": "TextAlign"
+     },
+     {
+      "name": "cssClass",
+      "value": "mustacheUnderscoreFormatted",
+      "type": "String"
+     }
+    ]
+   },
+   {
     "id": "e66767fb-8f3d-56d1-9b36-8d16ce276592",
     "type": "LayoutRow",
     "typeDesc": "Row",
@@ -1515,6 +1712,203 @@
     ]
    },
    {
+    "id": "d4e0cdfa-17fc-6ef3-2503-d7d0a58e3263",
+    "type": "LayoutRow",
+    "typeDesc": "Row",
+    "parent": "UnIqEiD",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "height",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "backgroundColor",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "roundCorners",
+      "value": "",
+      "type": "RoundCorners"
+     },
+     {
+      "name": "textAlign",
+      "value": "",
+      "type": "TextAlign"
+     },
+     {
+      "name": "cssClass",
+      "value": "section",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "e616ef50-f3ac-fdbe-3ead-82251b24a546",
+    "type": "LayoutBootstrapColumn",
+    "typeDesc": "Column",
+    "parent": "d4e0cdfa-17fc-6ef3-2503-d7d0a58e3263",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "bootstrapExtraSmall",
+      "value": "12",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapSmall",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapMedium",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapLarge",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapCssClass",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "height",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "backgroundColor",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "roundCorners",
+      "value": "",
+      "type": "RoundCorners"
+     },
+     {
+      "name": "textAlign",
+      "value": "",
+      "type": "TextAlign"
+     },
+     {
+      "name": "cssClass",
+      "value": "sectionTitle",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "2f8b9d32-4490-011f-082f-5e81e3ae82c3",
+    "type": "LayoutHtml",
+    "typeDesc": "Html",
+    "parent": "e616ef50-f3ac-fdbe-3ead-82251b24a546",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "html",
+      "value": "Underscore templates and addins on template component \n ",
+      "type": "Html"
+     },
+     {
+      "name": "fontSize",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "color",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "c06da0cf-e7e2-9b59-5609-989b0c454da2",
+    "type": "LayoutBootstrapColumn",
+    "typeDesc": "Column",
+    "parent": "d4e0cdfa-17fc-6ef3-2503-d7d0a58e3263",
+    "properties": [
+     {
+      "name": "name",
+      "value": "addinsOnTemplateComp",
+      "type": "Id"
+     },
+     {
+      "name": "bootstrapExtraSmall",
+      "value": "12",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapSmall",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapMedium",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapLarge",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapCssClass",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "height",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "backgroundColor",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "roundCorners",
+      "value": "",
+      "type": "RoundCorners"
+     },
+     {
+      "name": "textAlign",
+      "value": "",
+      "type": "TextAlign"
+     },
+     {
+      "name": "cssClass",
+      "value": "mustacheUnderscoreFormatted",
+      "type": "String"
+     }
+    ]
+   },
+   {
     "id": "04e5f3a4-89d0-5a67-282c-63c7548f8ae5",
     "type": "LayoutRow",
     "typeDesc": "Row",
@@ -1772,6 +2166,64 @@
     ]
    },
    {
+    "id": "55260558-733d-33ae-e878-c1c7ed768203",
+    "type": "ComponentstextComponent",
+    "typeDesc": "Text Component",
+    "parent": "OTHERCOMPONENTS",
+    "properties": [
+     {
+      "name": "name",
+      "value": "clicked",
+      "type": "Id"
+     },
+     {
+      "name": "listeners",
+      "value": "['${p:clickParam}']",
+      "type": "Listeners"
+     },
+     {
+      "name": "expression",
+      "value": "function() {\n    return Dashboards.getParameterValue('${p:clickParam}')\n} ",
+      "type": "JavaScript"
+     },
+     {
+      "name": "priority",
+      "value": 5,
+      "type": "Integer"
+     },
+     {
+      "name": "refreshPeriod",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "htmlObject",
+      "value": "${p:clicked}",
+      "type": "HtmlObject"
+     },
+     {
+      "name": "executeAtStart",
+      "value": "true",
+      "type": "Boolean"
+     },
+     {
+      "name": "preExecution",
+      "value": "",
+      "type": "JavaScript"
+     },
+     {
+      "name": "postExecution",
+      "value": "",
+      "type": "JavaScript"
+     },
+     {
+      "name": "tooltip",
+      "value": "",
+      "type": "Html"
+     }
+    ]
+   },
+   {
     "id": "d010cfba-5729-e2c4-2032-bfdf74ada51f",
     "type": "ComponentstemplateComponent",
     "typeDesc": "Template Component",
@@ -1873,18 +2325,9 @@
       "type": "EditorValuesArray"
      },
      {
-      "name": "eventType",
-      "value": "",
-      "type": "String"
-     },
-     {
-      "name": "eventHandler",
-      "type": "JavaScript"
-     },
-     {
-      "name": "eventSelector",
-      "value": "",
-      "type": "String"
+      "name": "formatters",
+      "value": "[]",
+      "type": "EditorValuesArray"
      },
      {
       "name": "rootElement",
@@ -2000,19 +2443,9 @@
       "type": "EditorValuesArray"
      },
      {
-      "name": "eventType",
-      "value": "",
-      "type": "String"
-     },
-     {
-      "name": "eventHandler",
-      "type": "JavaScript",
-      "value": ""
-     },
-     {
-      "name": "eventSelector",
-      "value": "",
-      "type": "String"
+      "name": "formatters",
+      "value": "[]",
+      "type": "EditorValuesArray"
      },
      {
       "name": "rootElement",
@@ -2128,19 +2561,9 @@
       "type": "EditorValuesArray"
      },
      {
-      "name": "eventType",
-      "value": "",
-      "type": "String"
-     },
-     {
-      "name": "eventHandler",
-      "type": "JavaScript",
-      "value": ""
-     },
-     {
-      "name": "eventSelector",
-      "value": "",
-      "type": "String"
+      "name": "formatters",
+      "value": "[]",
+      "type": "EditorValuesArray"
      },
      {
       "name": "rootElement",
@@ -2155,25 +2578,40 @@
     ]
    },
    {
-    "id": "55260558-733d-33ae-e878-c1c7ed768203",
-    "type": "ComponentstextComponent",
-    "typeDesc": "Text Component",
+    "id": "98400823-3aed-2213-e660-469f11b3a058",
+    "type": "ComponentstemplateComponent",
+    "typeDesc": "Template Component",
     "parent": "OTHERCOMPONENTS",
     "properties": [
      {
       "name": "name",
-      "value": "clicked",
+      "value": "underscoreFormatted",
       "type": "Id"
      },
      {
+      "name": "title",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "parameter",
+      "value": "",
+      "type": "Parameter"
+     },
+     {
       "name": "listeners",
-      "value": "['${p:clickParam}']",
+      "value": "[]",
       "type": "Listeners"
      },
      {
-      "name": "expression",
-      "value": "function() {\n    return Dashboards.getParameterValue('${p:clickParam}')\n} ",
-      "type": "JavaScript"
+      "name": "parameters",
+      "value": "[]",
+      "type": "ValuesArray"
+     },
+     {
+      "name": "dataSource",
+      "value": "templateQuery",
+      "type": "Datasource"
      },
      {
       "name": "priority",
@@ -2181,13 +2619,8 @@
       "type": "Integer"
      },
      {
-      "name": "refreshPeriod",
-      "value": "",
-      "type": "Integer"
-     },
-     {
       "name": "htmlObject",
-      "value": "${p:clicked}",
+      "value": "${p:underscoreFormatted}",
       "type": "HtmlObject"
      },
      {
@@ -2206,9 +2639,177 @@
       "type": "JavaScript"
      },
      {
+      "name": "postFetch",
+      "value": "",
+      "type": "JavaScript"
+     },
+     {
+      "name": "preChange",
+      "value": "",
+      "type": "JavaScript"
+     },
+     {
+      "name": "postChange",
+      "value": "",
+      "type": "JavaScript"
+     },
+     {
       "name": "tooltip",
       "value": "",
       "type": "Html"
+     },
+     {
+      "name": "modelHandler",
+      "value": "",
+      "type": "JavaScript"
+     },
+     {
+      "name": "template",
+      "value": "function() {\n    var template = ''+\n    '<% var table = Dashboards.getComponentByName(\"'+this.name+'\")%>'+ \n    '<% var getTrend = function(elem, key) {if (elem < 0) {return \"down icon-arrow-circle-o-down\"} else {return \"up icon-arrow-circle-o-up\"} } %>' + \n    '<div class=\"templateWrapper\">'+\n    '<% _.each(items, function(elem) { %> ' +\n    '       <div class=\"templateRow clickable\" data-click=\"<%=elem[0]%>\">'+\n    '           <div class=\"title\"> <%=elem[0]%> </div>'+\n    '           <div class=\"desc\"> <%=elem[1]%> </div>'+\n    '           <div class=\"value\">'+\n    '               <div class=\"trend <%=getTrend(elem[2])%>\"> </div>'+\n    '               <div class=\"number\"> <%=table.applyFormat(elem[2], \"floatFormatter\")%> </div>'+\n    '           </div>'+\n    '       </div>'+\n    '<% }); %>'\n    '</div>';\n    return template;\n}\n ",
+      "type": "JavaScript"
+     },
+     {
+      "name": "templateType",
+      "value": "underscore",
+      "type": "templateTypeCustom"
+     },
+     {
+      "name": "events",
+      "value": "[[\"click .templateRow\",\"function(e){\\n    var selected = $(this).attr('data-click');\\n    Dashboards.fireChange('${p:clickParam}', selected);\\n    Dashboards.log(selected, 'info');\\n}\"]]",
+      "type": "EditorValuesArray"
+     },
+     {
+      "name": "formatters",
+      "value": "[[\"floatFormatter\",\"function(value){\\n    return numeral(value).format('0.0');\\n}\"]]",
+      "type": "EditorValuesArray"
+     },
+     {
+      "name": "rootElement",
+      "value": "items",
+      "type": "String"
+     },
+     {
+      "name": "extendableOptions",
+      "value": "function() {\n    var opts = {\n        extendedProperty: \"this is sample extend property\"\n    };\n    return opts;\n}\n    ",
+      "type": "JavaScript"
+     }
+    ]
+   },
+   {
+    "id": "ded52fd7-95b0-7ec9-998c-65090a1c1bd4",
+    "type": "ComponentstemplateComponent",
+    "typeDesc": "Template Component",
+    "parent": "OTHERCOMPONENTS",
+    "properties": [
+     {
+      "name": "name",
+      "value": "addinsOnTemplateComp",
+      "type": "Id"
+     },
+     {
+      "name": "title",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "parameter",
+      "value": "",
+      "type": "Parameter"
+     },
+     {
+      "name": "listeners",
+      "value": "[]",
+      "type": "Listeners"
+     },
+     {
+      "name": "parameters",
+      "value": "[]",
+      "type": "ValuesArray"
+     },
+     {
+      "name": "dataSource",
+      "value": "templateQuery",
+      "type": "Datasource"
+     },
+     {
+      "name": "priority",
+      "value": 5,
+      "type": "Integer"
+     },
+     {
+      "name": "htmlObject",
+      "value": "${p:addinsOnTemplateComp}",
+      "type": "HtmlObject"
+     },
+     {
+      "name": "executeAtStart",
+      "value": "true",
+      "type": "Boolean"
+     },
+     {
+      "name": "preExecution",
+      "value": "function f() {\n    var templateOpts = {\n        templateType: 'mustache', \n        template:   '<div class=\"test\"> {{items}} </div>',\n        rootElement: 'items',\n        formatters: {\n            date: function(value){\n                var result = {\n                    date: moment(value).format('YYYY-MM-DD'),\n                    time: moment(value).format('hh:mm:ss')\n                };\n                return result;\n            }\n        },\n        events: [\n            ['click .test', function(event) {\n                console.log(this);\n            }]\n        ]\n    };\n\n    this.setAddInOptions(\"template\",\"template\", templateOpts);\n} ",
+      "type": "JavaScript"
+     },
+     {
+      "name": "postExecution",
+      "value": "",
+      "type": "JavaScript"
+     },
+     {
+      "name": "postFetch",
+      "value": "",
+      "type": "JavaScript"
+     },
+     {
+      "name": "preChange",
+      "value": "",
+      "type": "JavaScript"
+     },
+     {
+      "name": "postChange",
+      "value": "",
+      "type": "JavaScript"
+     },
+     {
+      "name": "tooltip",
+      "value": "",
+      "type": "Html"
+     },
+     {
+      "name": "modelHandler",
+      "value": "",
+      "type": "JavaScript"
+     },
+     {
+      "name": "template",
+      "value": "function() {\n    var template = ''+\n    '<% var table = Dashboards.getComponentByName(\"'+this.name+'\")%>'+ \n    '<% var getTrend = function(elem, key) {if (elem < 0) {return \"down icon-arrow-circle-o-down\"} else {return \"up icon-arrow-circle-o-up\"} } %>' + \n    '<div class=\"templateWrapper\">'+\n    '<% _.each(items, function(elem) { %> ' +\n    '       <div class=\"templateRow clickable\" data-click=\"<%=elem[0]%>\">'+\n    '           <div class=\"title\"> <%=elem[0]%> </div>'+\n    '           <div class=\"desc\"> <%=elem[1]%> </div>'+\n    '           <div class=\"value\">'+\n    '               <div class=\"trend <%=getTrend(elem[2])%>\"> </div>'+\n    '               <div class=\"number\"> <%=table.applyFormat(elem[2], \"floatFormatter\")%> </div>'+\n    '               <div class=\"addin\"> <%=table.applyAddin(elem[1], \"template\")%> </div>'+\n    '           </div>'+\n    '       </div>'+\n    '<% }); %>'\n    '</div>';\n    return template;\n}\n ",
+      "type": "JavaScript"
+     },
+     {
+      "name": "templateType",
+      "value": "underscore",
+      "type": "templateTypeCustom"
+     },
+     {
+      "name": "events",
+      "value": "[]",
+      "type": "EditorValuesArray"
+     },
+     {
+      "name": "formatters",
+      "value": "[[\"floatFormatter\",\"function(value){\\n    return numeral(value).format('0.0');\\n}\"]]",
+      "type": "EditorValuesArray"
+     },
+     {
+      "name": "rootElement",
+      "value": "items",
+      "type": "String"
+     },
+     {
+      "name": "extendableOptions",
+      "value": "function() {\n    var opts = {\n        extendedProperty: \"this is sample extend property\"\n    };\n    return opts;\n}\n    ",
+      "type": "JavaScript"
      }
     ]
    },
@@ -2314,19 +2915,9 @@
       "type": "EditorValuesArray"
      },
      {
-      "name": "eventType",
-      "value": "",
-      "type": "String"
-     },
-     {
-      "name": "eventHandler",
-      "type": "JavaScript",
-      "value": ""
-     },
-     {
-      "name": "eventSelector",
-      "value": "",
-      "type": "String"
+      "name": "formatters",
+      "value": "[]",
+      "type": "EditorValuesArray"
      },
      {
       "name": "rootElement",
@@ -2442,19 +3033,9 @@
       "type": "EditorValuesArray"
      },
      {
-      "name": "eventType",
-      "value": "",
-      "type": "String"
-     },
-     {
-      "name": "eventHandler",
-      "type": "JavaScript",
-      "value": " "
-     },
-     {
-      "name": "eventSelector",
-      "value": "",
-      "type": "String"
+      "name": "formatters",
+      "value": "[]",
+      "type": "EditorValuesArray"
      },
      {
       "name": "rootElement",
@@ -2570,19 +3151,9 @@
       "type": "EditorValuesArray"
      },
      {
-      "name": "eventType",
-      "value": "",
-      "type": "String"
-     },
-     {
-      "name": "eventHandler",
-      "type": "JavaScript",
-      "value": ""
-     },
-     {
-      "name": "eventSelector",
-      "value": "",
-      "type": "String"
+      "name": "formatters",
+      "value": "[]",
+      "type": "EditorValuesArray"
      },
      {
       "name": "rootElement",
@@ -2628,6 +3199,16 @@
       "type": "JavaScript"
      },
      {
+      "name": "colFormats",
+      "value": "[]",
+      "type": "Array"
+     },
+     {
+      "name": "colWidths",
+      "value": "[\"20%\",\"10%\",\"56%\",\"8%\",\"8%\"]",
+      "type": "Array"
+     },
+     {
       "name": "colHeaders",
       "value": "[]",
       "type": "Array"
@@ -2648,18 +3229,8 @@
       "type": "Array"
      },
      {
-      "name": "colFormats",
-      "value": "[]",
-      "type": "Array"
-     },
-     {
-      "name": "colWidths",
-      "value": "[]",
-      "type": "Array"
-     },
-     {
       "name": "colTypes",
-      "value": "[\"template\",\"hyperlink\",\"string\",\"string\",\"string\"]",
+      "value": "[\"template\",\"template\",\"template\",\"numeric\",\"numeric\"]",
       "type": "colTypesCustom"
      },
      {
@@ -2669,12 +3240,12 @@
      },
      {
       "name": "lengthChange",
-      "value": "true",
+      "value": "false",
       "type": "Boolean"
      },
      {
       "name": "filter",
-      "value": "true",
+      "value": "false",
       "type": "Boolean"
      },
      {
@@ -2684,7 +3255,7 @@
      },
      {
       "name": "sort",
-      "value": "true",
+      "value": "false",
       "type": "Boolean"
      },
      {
@@ -2739,7 +3310,7 @@
      },
      {
       "name": "paginationType",
-      "value": "simple_numbers",
+      "value": "simple",
       "type": "PaginationType"
      },
      {
@@ -2759,7 +3330,7 @@
      },
      {
       "name": "preExecution",
-      "value": "function f() {\n    var templateOpts = {\n        templateType: 'mustache', \n        template:   '<div>'+\n                    '  <div> {{items.name}} </div>'+\n                    '  <div> {{items.email}} </div>'+\n                    '  <div> {{items.date}} </div>'+\n                    '<div>',\n        rootElement: 'items',\n        formatters: {\n            name: function(value){\n                return value;\n            }\n        }\n    };\n    this.setAddInOptions(\"colType\",\"template\", templateOpts);\n} ",
+      "value": "function f() {\n    var templateOptsInfo = {\n        templateType: 'mustache', \n        template:   '<div>'+\n                    '  <div> {{items.name}} </div>'+\n                    '  <div> <a href=\"mailto:{{items.email}}\"> {{items.email}} </a> </div>'+\n                    '  <div class=\"fa fa-clock-o\"> {{items.date.date}} </div>'+\n                    '  <div class=\"fa fa-calendar\"> {{items.date.time}} </div>'+\n                    '</div>',\n        rootElement: 'items',\n        formatters: {\n            date: function(value){\n                var result = {\n                    date: moment(value).format('YYYY-MM-DD'),\n                    time: moment(value).format('hh:mm:ss')\n                };\n                return result;\n            }\n        }\n    };\n    var templateOptsLink = {\n        templateType: 'mustache', \n        template:   '<div target=\"_blank\" class=\"fa fa-external-link\"> <a href=\"{{value}}\"> Details </a> </div>',\n        rootElement: 'value',\n        formatters: {\n        }\n    };\n    var templateOptsExpandClick = {\n        templateType: 'mustache', \n        template:   '<div>'+\n                    '   <div class=\"message ellipsis\"> {{value}} </div>'+\n                    '   <a class=\"toggleEllipsis\"> Click me to expand/collapse </a>'+\n                    '</div>',\n        rootElement: 'value',\n        formatters: {\n        },\n        events: [\n            ['click .toggleEllipsis', function(event) {\n                $(event.data.target).find('.message').toggleClass('ellipsis');\n            }]\n        ]\n    };\n    \n    this.setAddInOptions(\"colType\",\"template\", function(state){\n        var opts = {};\n        switch(state.colIdx) {\n            case 0: \n                opts =  templateOptsInfo;\n                break;\n            case 1: \n                opts =  templateOptsLink;\n                break;\n            case 2: \n                opts =  templateOptsExpandClick;\n                break;\n            default: \n                opts = {};\n                break;\n        }\n        return opts;\n    });\n} ",
       "type": "JavaScript"
      },
      {
