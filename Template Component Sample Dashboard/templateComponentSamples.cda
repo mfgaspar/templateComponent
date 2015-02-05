@@ -9,6 +9,12 @@
          <Initscript></Initscript>
          <Language>beanshell</Language>
       </Connection>
+      <Connection id="githubStats" type="kettle.TransFromFile">
+         <KtrFile>resources/queries/githubStats.ktr</KtrFile>
+         <variables datarow-name="OWNER" variable-name="OWNER"/>
+         <variables datarow-name="REPO" variable-name="REPO"/>
+         <variables datarow-name="SHA" variable-name="SHA"/>
+      </Connection>
    </DataSources>
    <DataAccess access="public" cache="true" cacheDuration="3600"
                connection="emptyTemplateQuery"
@@ -50,5 +56,17 @@ model.addRow(new Object[]{	new String ("CFR"),	new String ("File Repository"),	n
 model.addRow(new Object[]{	new String ("CDG"),	new String ("Data Generator"),	new Float(-88.20733418),	new Float(-72.48848486),	new Boolean(false),	new String("2015-01-01"),	new String ("1.954412768,83.66806352,31.52089382"),	new Float(1.954412768),	new Float(83.66806352),	new Float(31.52089382)	});
 model.addRow(new Object[]{	new String ("CBF"),	new String ("Build Framework"),	new Float(10.75148192),	new Float(-175.6339215),	new Boolean(true),	new String("2015-01-02"),	new String ("23.42902329,36.18434318,63.00424021"),	new Float(23.42902329),	new Float(36.18434318),	new Float(63.00424021)	});
 return model;</Query>
+   </DataAccess>
+   <DataAccess access="public" cache="true" cacheDuration="3600" connection="githubStats"
+               id="githubStats"
+               type="kettle">
+      <Columns/>
+      <Output indexes="0,1,2" mode="exclude"/>
+      <Parameters>
+         <Parameter default="webdetails" name="ONWER" type="String"/>
+         <Parameter default="cde" name="REPO" type="String"/>
+         <Parameter default="master" name="SHA" type="String"/>
+      </Parameters>
+      <Query>OUTPUT</Query>
    </DataAccess>
 </CDADescriptor>

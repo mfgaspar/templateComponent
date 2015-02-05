@@ -27,12 +27,15 @@
       <Property>tooltip</Property>
       <Property>listeners</Property>
       <!-- START: Template Component Properties -->
-      <Property>dataHandler</Property>
+      <Property>modelHandler</Property>
       <Property>template</Property>
       <Property>templateType</Property>
+      <Property>events</Property>
       <Property>eventType</Property>
       <Property>eventHandler</Property>
       <Property>eventSelector</Property>
+      <Property>rootElement</Property>
+      <Property>extendableOptions</Property>
       <!-- END: Template Component Properties -->
     </Model>
     <Implementation>
@@ -49,14 +52,14 @@
       <CustomProperties>
         <DesignerProperty>
           <Header>
-            <Name>dataHandler</Name>
+            <Name>modelHandler</Name>
             <Parent>BaseProperty</Parent>
-            <DefaultValue>function(data){Dashboards.log('Manipulationg data'); return data;}</DefaultValue>
-            <Description>A function to execute when the event is triggered</Description>
-            <Tooltip>A function to execute when the event is triggered</Tooltip>
+            <DefaultValue></DefaultValue>
+            <Description>Model Handler</Description>
+            <Tooltip>A function to execute to handle data for the model. Should return the model to be used on the template.</Tooltip>
             <InputType>JavaScript</InputType>
             <OutputType>Function</OutputType>
-            <Order>30</Order>
+            <Order>910</Order>
             <Advanced>false</Advanced>
             <Version>1.0</Version>
           </Header>
@@ -65,12 +68,12 @@
           <Header>
             <Name>template</Name>
             <Parent>BaseProperty</Parent>
-            <DefaultValue>"function() { return "<>"}"</DefaultValue>
-            <Description>Custom Property</Description>
-            <Tooltip>Custom Property</Tooltip>
-            <InputType>String</InputType>
-            <OutputType>String</OutputType>
-            <Order>30</Order>
+            <DefaultValue></DefaultValue>
+            <Description>Template</Description>
+            <Tooltip>Function that returns a template to be used.</Tooltip>
+            <InputType>JavaScript</InputType>
+            <OutputType>Function</OutputType>
+            <Order>920</Order>
             <Advanced>false</Advanced>
             <Version>1.0</Version>
           </Header>
@@ -80,11 +83,11 @@
                 <Name>templateType</Name>
                 <Parent>BaseProperty</Parent>
                 <DefaultValue>underscore</DefaultValue>
-                <Description>Template library to use on render, choose from list.</Description>
+                <Description>Template Library</Description>
                 <Tooltip>Template library to use on render, choose from list.</Tooltip>
                 <InputType type="valuelist" />
                 <OutputType>String</OutputType>
-                <Order>30</Order>
+                <Order>930</Order>
                 <Advanced>false</Advanced>
                 <Version>1.0</Version>
             </Header>
@@ -95,14 +98,28 @@
         </DesignerProperty>
         <DesignerProperty>
           <Header>
+            <Name>events</Name>
+            <Parent>BaseProperty</Parent>
+            <DefaultValue>"[]"</DefaultValue>
+            <Description>Events</Description>
+            <Tooltip>Events to trigger for each event/event. On the left set the event and selector separated by space. On the right the event handler.</Tooltip>
+            <InputType>EditorValuesArray</InputType>
+            <OutputType>Array</OutputType>
+            <Order>935</Order>
+            <Advanced>false</Advanced>
+            <Version>1.0</Version>
+          </Header>
+        </DesignerProperty>
+        <DesignerProperty>
+          <Header>
             <Name>eventType</Name>
             <Parent>BaseProperty</Parent>
             <DefaultValue>click</DefaultValue>
-            <Description>One or more space-separated event types and optional namespaces</Description>
+            <Description>Event Type</Description>
             <Tooltip>One or more space-separated event types and optional namespaces</Tooltip>
             <InputType>String</InputType>
             <OutputType>String</OutputType>
-            <Order>30</Order>
+            <Order>940</Order>
             <Advanced>false</Advanced>
             <Version>1.0</Version>
           </Header>
@@ -112,30 +129,57 @@
             <Name>eventHandler</Name>
             <Parent>BaseProperty</Parent>
             <DefaultValue>function(event){Dashboards.log('Click');}</DefaultValue>
-            <Description>A function to execute when the event is triggered</Description>
-            <Tooltip>A function to execute when the event is triggered</Tooltip>
+            <Description>Event Handler</Description>
+            <Tooltip>A function to execute when the event is triggered.</Tooltip>
             <InputType>JavaScript</InputType>
             <OutputType>Function</OutputType>
-            <Order>30</Order>
+            <Order>950</Order>
             <Advanced>false</Advanced>
             <Version>1.0</Version>
           </Header>
         </DesignerProperty> 
-
         <DesignerProperty>
           <Header>
             <Name>eventSelector</Name>
             <Parent>BaseProperty</Parent>
-            <DefaultValue>"Event Selector"</DefaultValue>
-            <Description>A selector string to filter the elements that trigger the event.</Description>
-            <Tooltip>A selector string to filter the elements that trigger the event.</Tooltip>
+            <DefaultValue></DefaultValue>
+            <Description>Selector</Description>
+            <Tooltip>A jquery selector string to filter the elements that trigger the event.</Tooltip>
             <InputType>String</InputType>
             <OutputType>String</OutputType>
-            <Order>30</Order>
+            <Order>960</Order>
             <Advanced>false</Advanced>
             <Version>1.0</Version>
           </Header>
-        </DesignerProperty>              
+        </DesignerProperty>
+        <DesignerProperty>
+          <Header>
+            <Name>rootElement</Name>
+            <Parent>BaseProperty</Parent>
+            <DefaultValue>items</DefaultValue>
+            <Description>Model root element</Description>
+            <Tooltip>Set the id of the root element of the model to render.</Tooltip>
+            <InputType>String</InputType>
+            <OutputType>String</OutputType>
+            <Order>970</Order>
+            <Advanced>false</Advanced>
+            <Version>1.0</Version>
+          </Header>
+        </DesignerProperty> 
+        <DesignerProperty>
+          <Header>
+            <Name>extendableOptions</Name>
+            <Parent>BaseProperty</Parent>
+            <DefaultValue></DefaultValue>
+            <Description>Extendable Options</Description>
+            <Tooltip>An object with propertied to extend the functionality of the component.</Tooltip>
+            <InputType>JavaScript</InputType>
+            <OutputType>Function</OutputType>
+            <Order>9000</Order>
+            <Advanced>true</Advanced>
+            <Version>1.0</Version>
+          </Header>
+        </DesignerProperty> 
       </CustomProperties>
     </Implementation>
   </Contents>
