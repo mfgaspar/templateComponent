@@ -1,6 +1,8 @@
 .templateWrapper {
 }
 
+
+
 /* CARDS */
 
 .sectionTitle {
@@ -13,6 +15,12 @@
     border-radius: 4px;
     margin-top: 40px;
     margin-bottom: 10px;
+}
+
+.sectionTitle .description {
+    text-transform: none;
+    font-weight: normal;
+    color: white;
 }
 
 .templateRow {
@@ -88,9 +96,29 @@
     width: 75%;
     font-size: 16px;
     text-align: right;
-} 
+}
+
+.addinOnAddin {
+    text-align: justify;
+    font-size: 8px;
+    padding: 7px;
+    background-color: rgba(211, 212, 106, 0.5);
+    margin-top: 10px;
+    border-radius: 5px;
+    min-height: 100px;
+}
 
 /* TABLE */
+
+.table {
+  table-layout:fixed;
+}
+
+.table td {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 
 .message.ellipsis {
     text-overflow: ellipsis;
@@ -99,7 +127,7 @@
     height: 18px;
 }
 .message {
-    width: 620px;
+    white-space: normal;
     text-align: justify;
 }
 

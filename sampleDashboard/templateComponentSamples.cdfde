@@ -242,7 +242,7 @@
     ]
    },
    {
-    "id": "f61328d2-39ef-49ed-a1c6-bb6ab00d6725",
+    "id": "ca448880-dea5-ee73-24aa-7ea6d96a8a63",
     "type": "LayoutHtml",
     "typeDesc": "Html",
     "parent": "412a8ecc-3595-eb4f-c4af-9dee2660e8b3",
@@ -254,7 +254,7 @@
      },
      {
       "name": "html",
-      "value": "Mustache Template ",
+      "value": "<div> Mustache Template </div> ",
       "type": "Html"
      },
      {
@@ -270,6 +270,39 @@
      {
       "name": "cssClass",
       "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "f61328d2-39ef-49ed-a1c6-bb6ab00d6725",
+    "type": "LayoutHtml",
+    "typeDesc": "Html",
+    "parent": "412a8ecc-3595-eb4f-c4af-9dee2660e8b3",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "html",
+      "value": "<div> Example of using a simple mustache template </div> ",
+      "type": "Html"
+     },
+     {
+      "name": "fontSize",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "color",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "cssClass",
+      "value": "description",
       "type": "String"
      }
     ]
@@ -451,7 +484,7 @@
      },
      {
       "name": "html",
-      "value": "Underscore Template ",
+      "value": "<div> Underscore Template </div> ",
       "type": "Html"
      },
      {
@@ -467,6 +500,39 @@
      {
       "name": "cssClass",
       "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "28f6ef77-7a66-bdb5-2372-9b2d05165e25",
+    "type": "LayoutHtml",
+    "typeDesc": "Html",
+    "parent": "34548e37-3407-6c22-d0ec-6b27ee3ce342",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "html",
+      "value": "<div> Example of using a simple underscore template </div> ",
+      "type": "Html"
+     },
+     {
+      "name": "fontSize",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "color",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "cssClass",
+      "value": "description",
       "type": "String"
      }
     ]
@@ -648,7 +714,7 @@
      },
      {
       "name": "html",
-      "value": "Clickable Underscore Template\n ",
+      "value": "<div> Clickable Underscore Template</div> \n ",
       "type": "Html"
      },
      {
@@ -664,6 +730,39 @@
      {
       "name": "cssClass",
       "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "3fb5ee47-de08-d8fd-a7cb-d6ec0f91916f",
+    "type": "LayoutHtml",
+    "typeDesc": "Html",
+    "parent": "88931338-b7a3-7f53-9a2f-3d390ee92ef6",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "html",
+      "value": "<div> Handling events for templates. Click on each element to do a fireChange. </div> ",
+      "type": "Html"
+     },
+     {
+      "name": "fontSize",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "color",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "cssClass",
+      "value": "description",
       "type": "String"
      }
     ]
@@ -1004,7 +1103,7 @@
      },
      {
       "name": "html",
-      "value": "Underscore template with fomatted model values\n ",
+      "value": "<div> Underscore template with fomatted model values</div> \n ",
       "type": "Html"
      },
      {
@@ -1020,6 +1119,39 @@
      {
       "name": "cssClass",
       "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "df979a94-211b-c621-3149-59e0ebcf05ab",
+    "type": "LayoutHtml",
+    "typeDesc": "Html",
+    "parent": "c79023d0-7a47-fe5c-952b-2074d2e27209",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "html",
+      "value": "<div> We can apply functions to format the fields of the model on the template. </div> ",
+      "type": "Html"
+     },
+     {
+      "name": "fontSize",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "color",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "cssClass",
+      "value": "description",
       "type": "String"
      }
     ]
@@ -1201,7 +1333,7 @@
      },
      {
       "name": "html",
-      "value": "Empty Template ",
+      "value": "<div> Empty Template </div> ",
       "type": "Html"
      },
      {
@@ -1217,6 +1349,39 @@
      {
       "name": "cssClass",
       "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "97832066-f983-1133-9a8f-882dfbdb3f90",
+    "type": "LayoutHtml",
+    "typeDesc": "Html",
+    "parent": "c9731d5b-b686-19a7-e1f9-360cbf53f688",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "html",
+      "value": "<div> It's also possible the template and the text of error handling. </div> ",
+      "type": "Html"
+     },
+     {
+      "name": "fontSize",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "color",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "cssClass",
+      "value": "description",
       "type": "String"
      }
     ]
@@ -1398,7 +1563,7 @@
      },
      {
       "name": "html",
-      "value": "Manipulating Data for the Template ",
+      "value": "<div> Manipulating Data for the Template </div> ",
       "type": "Html"
      },
      {
@@ -1414,6 +1579,39 @@
      {
       "name": "cssClass",
       "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "e4e106d5-6c7e-1405-15ff-331470a592f3",
+    "type": "LayoutHtml",
+    "typeDesc": "Html",
+    "parent": "338dc0f0-954e-b098-9a63-991f6fcbb55a",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "html",
+      "value": "<div> The compoent will model the resultset, but you can also do it and create the best and more complex models to be used in your templates. </div> ",
+      "type": "Html"
+     },
+     {
+      "name": "fontSize",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "color",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "cssClass",
+      "value": "description",
       "type": "String"
      }
     ]
@@ -1595,7 +1793,7 @@
      },
      {
       "name": "html",
-      "value": "Html template usage with underscore ",
+      "value": "<div> Template usage with underscore </div> ",
       "type": "Html"
      },
      {
@@ -1617,6 +1815,39 @@
    },
    {
     "id": "b32ff491-ed99-3106-f5f2-e7788939cc2c",
+    "type": "LayoutHtml",
+    "typeDesc": "Html",
+    "parent": "87b08adb-b16e-7777-0ff2-26da520f6722",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "html",
+      "value": "<div> This is using a template that is defined on the html and not like a string. </div> ",
+      "type": "Html"
+     },
+     {
+      "name": "fontSize",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "color",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "debbdd3b-6ea0-859d-75e5-6b281b9f75cd",
     "type": "LayoutHtml",
     "typeDesc": "Html",
     "parent": "87b08adb-b16e-7777-0ff2-26da520f6722",
@@ -1825,7 +2056,7 @@
      },
      {
       "name": "html",
-      "value": "Underscore templates and addins on template component \n ",
+      "value": "<div>Underscore templates and addins on template component</div> \n ",
       "type": "Html"
      },
      {
@@ -1841,6 +2072,39 @@
      {
       "name": "cssClass",
       "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "9825878c-b003-9894-3804-53b2b1e5256c",
+    "type": "LayoutHtml",
+    "typeDesc": "Html",
+    "parent": "e616ef50-f3ac-fdbe-3ead-82251b24a546",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "html",
+      "value": "<div> The compoent also allows the use of addins inside the template. It allows to build addins that can be easly reused. Apply formarting and error handling it's also possible on the addins. Bellow clicking on the gray or yellow area you will get diferent notifications. </div> ",
+      "type": "Html"
+     },
+     {
+      "name": "fontSize",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "color",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "cssClass",
+      "value": "description",
       "type": "String"
      }
     ]
@@ -2022,7 +2286,7 @@
      },
      {
       "name": "html",
-      "value": "Html template usage with underscore ",
+      "value": "<div> Html template usage with underscore </div> ",
       "type": "Html"
      },
      {
@@ -2038,6 +2302,39 @@
      {
       "name": "cssClass",
       "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "259e994b-6a93-2756-8846-bce63451d4c6",
+    "type": "LayoutHtml",
+    "typeDesc": "Html",
+    "parent": "63a92ed4-3283-932c-52cd-ca9353f12f49",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "html",
+      "value": "<div> On the component are also included addins for the table component. This allows the use of templates on each cell of a table,. It's possible to apply formatting and event handling. The firts 3 columns are using template addins. Click on the links to see some action. </div> ",
+      "type": "Html"
+     },
+     {
+      "name": "fontSize",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "color",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "cssClass",
+      "value": "description",
       "type": "String"
      }
     ]
@@ -2748,7 +3045,7 @@
      },
      {
       "name": "preExecution",
-      "value": "function f() {\n    var templateOpts = {\n        templateType: 'mustache', \n        template:   '<div class=\"test\"> {{items}} </div>',\n        rootElement: 'items',\n        formatters: {\n            date: function(value){\n                var result = {\n                    date: moment(value).format('YYYY-MM-DD'),\n                    time: moment(value).format('hh:mm:ss')\n                };\n                return result;\n            }\n        },\n        events: [\n            ['click .test', function(event) {\n                console.log(this);\n            }]\n        ]\n    };\n\n    this.setAddInOptions(\"template\",\"template\", templateOpts);\n} ",
+      "value": "function f() {\n    var templateOpts = {\n        templateType: 'mustache', \n        template:   '<div class=\"addinOnAddin\"> ' +\n                    '   <div> This is an addin inside the component, click me to see an alert message! </div>' +\n                    '   <div> You are looking to the {{items}} </div>' +\n                    '</div>',\n        rootElement: 'items',\n        formatters: { },\n        events: [\n            ['click .addinOnAddin', function(event) {\n                event.preventDefault();\n                event.stopPropagation();\n                var notyOpts = {theme: 'bootstrapTheme', type: 'success', text: 'You clicked on the addin for: Community '+event.data.status.model.items, layout: 'topRight', dismissQueue: true, timeout: 3000, modal: false, maxVisible: 10};\n                noty(notyOpts);\n            }]\n        ]\n    };\n\n    this.setAddInOptions(\"template\",\"template\", templateOpts);\n} ",
       "type": "JavaScript"
      },
      {
@@ -2793,7 +3090,7 @@
      },
      {
       "name": "events",
-      "value": "[]",
+      "value": "[[\"click .templateRow\",\"function(event){\\n    event.preventDefault();\\n    event.stopPropagation();\\n    var selected = $(this).attr('data-click');\\n    var notyOpts = {\\n        theme: 'bootstrapTheme',\\n        type: 'success', \\n        text: 'You clicked on: '+selected, \\n        layout: 'topRight',\\n        dismissQueue: true,\\n        timeout: 3000, \\n        modal: false,\\n        maxVisible: 10\\n    };\\n    noty(notyOpts);\\n}\"]]",
       "type": "EditorValuesArray"
      },
      {
@@ -3199,16 +3496,6 @@
       "type": "JavaScript"
      },
      {
-      "name": "colFormats",
-      "value": "[]",
-      "type": "Array"
-     },
-     {
-      "name": "colWidths",
-      "value": "[\"20%\",\"10%\",\"56%\",\"8%\",\"8%\"]",
-      "type": "Array"
-     },
-     {
       "name": "colHeaders",
       "value": "[]",
       "type": "Array"
@@ -3226,6 +3513,16 @@
      {
       "name": "colSortable",
       "value": "[]",
+      "type": "Array"
+     },
+     {
+      "name": "colFormats",
+      "value": "[]",
+      "type": "Array"
+     },
+     {
+      "name": "colWidths",
+      "value": "[\"20%\",\"10%\",\"56%\",\"8%\",\"8%\"]",
       "type": "Array"
      },
      {
@@ -3255,7 +3552,7 @@
      },
      {
       "name": "sort",
-      "value": "false",
+      "value": "true",
       "type": "Boolean"
      },
      {
@@ -3330,7 +3627,7 @@
      },
      {
       "name": "preExecution",
-      "value": "function f() {\n    var templateOptsInfo = {\n        templateType: 'mustache', \n        template:   '<div>'+\n                    '  <div> {{items.name}} </div>'+\n                    '  <div> <a href=\"mailto:{{items.email}}\"> {{items.email}} </a> </div>'+\n                    '  <div class=\"fa fa-clock-o\"> {{items.date.date}} </div>'+\n                    '  <div class=\"fa fa-calendar\"> {{items.date.time}} </div>'+\n                    '</div>',\n        rootElement: 'items',\n        formatters: {\n            date: function(value){\n                var result = {\n                    date: moment(value).format('YYYY-MM-DD'),\n                    time: moment(value).format('hh:mm:ss')\n                };\n                return result;\n            }\n        }\n    };\n    var templateOptsLink = {\n        templateType: 'mustache', \n        template:   '<div target=\"_blank\" class=\"fa fa-external-link\"> <a href=\"{{value}}\"> Details </a> </div>',\n        rootElement: 'value',\n        formatters: {\n        }\n    };\n    var templateOptsExpandClick = {\n        templateType: 'mustache', \n        template:   '<div>'+\n                    '   <div class=\"message ellipsis\"> {{value}} </div>'+\n                    '   <a class=\"toggleEllipsis\"> Click me to expand/collapse </a>'+\n                    '</div>',\n        rootElement: 'value',\n        formatters: {\n        },\n        events: [\n            ['click .toggleEllipsis', function(event) {\n                $(event.data.target).find('.message').toggleClass('ellipsis');\n            }]\n        ]\n    };\n    \n    this.setAddInOptions(\"colType\",\"template\", function(state){\n        var opts = {};\n        switch(state.colIdx) {\n            case 0: \n                opts =  templateOptsInfo;\n                break;\n            case 1: \n                opts =  templateOptsLink;\n                break;\n            case 2: \n                opts =  templateOptsExpandClick;\n                break;\n            default: \n                opts = {};\n                break;\n        }\n        return opts;\n    });\n} ",
+      "value": "function f() {\n    var templateOptsInfo = {\n        templateType: 'mustache', \n        template:   '<div>'+\n                    '  <div> {{items.name}} </div>'+\n                    '  <div> <a href=\"mailto:{{items.email}}\"> {{items.email}} </a> </div>'+\n                    '  <div class=\"fa fa-clock-o\"> {{items.date.date}} </div>'+\n                    '  <div class=\"fa fa-calendar\"> {{items.date.time}} </div>'+\n                    '</div>',\n        rootElement: 'items',\n        formatters: {\n            date: function(value){\n                var result = {\n                    date: moment(value).format('YYYY-MM-DD'),\n                    time: moment(value).format('hh:mm:ss')\n                };\n                return result;\n            }\n        }\n    };\n    var templateOptsLink = {\n        templateType: 'mustache', \n        template:   '<div class=\"fa fa-external-link\"> <a target=\"_blank\" href=\"{{value}}\"> Details </a> </div>',\n        rootElement: 'value',\n        formatters: {\n        }\n    };\n    var templateOptsExpandClick = {\n        templateType: 'mustache', \n        template:   '<div>'+\n                    '   <div class=\"message ellipsis\"> {{value}} </div>'+\n                    '   <a class=\"toggleEllipsis\"> Click me to expand/collapse </a>'+\n                    '</div>',\n        rootElement: 'value',\n        formatters: {\n        },\n        events: [\n            ['click .toggleEllipsis', function(event) {\n                $(event.data.target).find('.message').toggleClass('ellipsis');\n            }]\n        ]\n    };\n    \n    this.setAddInOptions(\"colType\",\"template\", function(state){\n        var opts = {};\n        switch(state.colIdx) {\n            case 0: \n                opts =  templateOptsInfo;\n                break;\n            case 1: \n                opts =  templateOptsLink;\n                break;\n            case 2: \n                opts =  templateOptsExpandClick;\n                break;\n            default: \n                opts = {};\n                break;\n        }\n        return opts;\n    });\n} ",
       "type": "JavaScript"
      },
      {
