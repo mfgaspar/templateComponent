@@ -23,6 +23,31 @@
     color: white;
 }
 
+
+.templateWrapperGroups .templateRow {
+    width: auto;
+}
+
+.templateWrapperGroups .templateRow .groupTitle{
+    font-size: 20px;
+}
+
+.templateWrapperGroups .templateRow .title{
+    font-size: 14px;
+}
+
+.templateWrapperGroups .templateRow .title, .templateWrapperGroups .templateRow .value{
+    font-size: 14px;
+    width: 50%;
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+    float: left;
+}
+
+.templateWrapperGroups .templateRow .title:after {
+}
+
 .templateRow {
     float: left;
     margin: 0.5%;

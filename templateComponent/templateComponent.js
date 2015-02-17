@@ -1,3 +1,4 @@
+
 /******************************************************************************
  * Template component implementation  
  ******************************************************************************/
@@ -34,7 +35,7 @@ var templateComponent = UnmanagedComponent.extend({
     },
 
     update: function() {
-        _.bindAll(this, 'redraw', 'init', 'processData', 'renderTemplate', 'attachEvents', 'processMessage', 'template', 'applyFormat', 'applyAddin', 'processAddins');
+        _.bindAll(this, 'redraw', 'init', 'processData', 'renderTemplate', 'attachEvents', 'processMessage', 'template', 'applyFormatter', 'applyAddin', 'processAddins');
         this.init();
         this.triggerQuery(this.chartDefinition, this.redraw);
     },
@@ -50,7 +51,14 @@ var templateComponent = UnmanagedComponent.extend({
         }
     },
 
-    applyFormat: function(model, formatter) {
+    getUID: function() {
+        return 'xxxxxxxx'.replace(/[xy]/g, function(c) {
+            var r = Math.random()*16|0, v = c === 'x' ? r : (r&0x3|0x8);
+            return v.toString(16);
+        });
+    },
+
+    applyFormatter: function(model, formatter) {
         var formatHandler = Dashboards.propertiesArrayToObject(this.formatters)[formatter];
         if (_.isFunction(formatHandler)) {
             return formatHandler(model);
@@ -59,18 +67,11 @@ var templateComponent = UnmanagedComponent.extend({
         }
     },
     
-    getUID: function() {
-        return 'xxxxxxxx'.replace(/[xy]/g, function(c) {
-            var r = Math.random()*16|0, v = c === 'x' ? r : (r&0x3|0x8);
-            return v.toString(16);
-        });
-    },
-    
-    applyAddin: function(model, addInName) {
-        var UID = this.name+"_"+addInName+this.getUID();
+    applyAddin: function(model, addin) {
+        var UID = this.name+"_"+addin+this.getUID();
         this.addins = this.addins || [];
-        this.addins.push({uid: UID, model: model, addin: addInName});
-        return '<div id="'+UID+'" class="'+addInName+'"/>';
+        this.addins.push({uid: UID, model: model, addin: addin});
+        return '<div id="'+UID+'" class="'+addin+'"/>';
     },
     
     processAddins: function($target){
@@ -101,25 +102,31 @@ var templateComponent = UnmanagedComponent.extend({
                 return "";
             }
         } else {
-            return this.mnodelHandler(queryResult);
+            return this.modelHandler(queryResult);
         }
     },
 
     // Apply template based on the result of a query. Creates a template based (mustache or underscore) view data object and apply columns format 
     renderTemplate: function(template, templateType, model) {
         var hmtl = "";
+        var myself = this;
         if ((!_.isEmpty(model))) {
-            _.each(this.formatters, function(value, key){
-                if ((!_.isUndefined(model[key])) && (_.isFunction(value))) {
-                    model[this.rootElement][key] = value(model[key]) || model[key];
-                }                     
-            });
+            var helpers = {
+                formatter: function(data, formatter) {
+                    return myself.applyFormatter(data, formatter);    
+                },
+                addin: function(data, addin) {
+                    return myself.applyAddin(data, addin);    
+                }
+            };
             try {
                 switch (templateType.toUpperCase()) {
                     case 'UNDERSCORE':
+                        model = _.defaults({}, model, Dashboards.propertiesArrayToObject(helpers));
                         hmtl = _.template((_.isFunction(template) ? template() : template), model);
                         break;
                     case 'MUSTACHE':
+                        Mustache.Formatters = helpers;
                         hmtl = Mustache.render((_.isFunction(template) ? template() : template), model);
                         break;
                     default:
@@ -235,7 +242,7 @@ var template2TemplateAddIn = {
         if ((!_.isEmpty(data))) {
             _.each(opt.formatters, function(value, key){
                 if ((!_.isUndefined(data[key])) && (_.isFunction(value))) {
-                    data[key] = value(data[key]) || data[key];
+                    data[key] = value(data[key], tgt, st, opt) || data[key];
                 }                     
             });
             model[opt.rootElement] = data;
@@ -354,7 +361,7 @@ var templateAddIn = {
         if ((!_.isEmpty(data))) {
             _.each(opt.formatters, function(value, key){
                 if ((!_.isUndefined(data[key])) && (_.isFunction(value))) {
-                    data[key] = value(data[key]) || data[key];
+                    data[key] = value(data[key], tgt, st, opt) || data[key];
                 }                     
             });
             model[opt.rootElement] = data;

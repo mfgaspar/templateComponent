@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CDADescriptor>
    <DataSources>
+      <Connection id="groupingRows" type="scripting.scripting">
+         <Initscript></Initscript>
+         <Language>beanshell</Language>
+      </Connection>
       <Connection id="emptyTemplateQuery" type="scripting.scripting">
          <Initscript></Initscript>
          <Language>beanshell</Language>
@@ -16,6 +20,29 @@
          <variables datarow-name="SHA" variable-name="SHA"/>
       </Connection>
    </DataSources>
+   <DataAccess access="public" cache="true" cacheDuration="3600" connection="groupingRows"
+               id="groupingRows"
+               type="scriptable">
+      <Columns/>
+      <Parameters/>
+      <Query>import org.pentaho.reporting.engine.classic.core.util.TypedTableModel;    
+String[] columnNames = new String[]{											
+	"Name",	"Description",	"Value"
+};											
+Class[] columnTypes = new Class[]{											
+	String.class,	String.class,	Float.class
+};											
+TypedTableModel model = new TypedTableModel(columnNames, columnTypes);											
+
+model.addRow(new Object[]{ new String("Pentaho"), new String ("PDI"), new Float(120)});
+model.addRow(new Object[]{ new String("Pentaho"), new String ("Shims"), new Float(10)});
+model.addRow(new Object[]{ new String("Webdetails"), new String ("CDE"), new Float(60)});
+model.addRow(new Object[]{ new String("Webdetails"), new String ("CDF"), new Float(50)});
+model.addRow(new Object[]{ new String("Webdetails"), new String ("CDA"), new Float(10)});
+
+
+return model;</Query>
+   </DataAccess>
    <DataAccess access="public" cache="true" cacheDuration="3600"
                connection="emptyTemplateQuery"
                id="emptyTemplateQuery"

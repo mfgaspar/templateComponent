@@ -127,6 +127,22 @@
     </attributes>
   </connection>
   <connection>
+    <name>Beontra</name>
+    <server>sales2-dev.scenarioplanning.com</server>
+    <type>ORACLE</type>
+    <access>Native</access>
+    <database>orcl</database>
+    <port>1521</port>
+    <username>sales_dev_pth</username>
+    <password>Encrypted 2be98afc86aa7f2e4cb09ab7eca93a7d5</password>
+    <servername/>
+    <data_tablespace/>
+    <index_tablespace/>
+    <attributes>
+      <attribute><code>PORT_NUMBER</code><attribute>1521</attribute></attribute>
+    </attributes>
+  </connection>
+  <connection>
     <name>Inquiro</name>
     <server>localhost</server>
     <type>MYSQL</type>
@@ -228,6 +244,22 @@
     <index_tablespace/>
     <attributes>
       <attribute><code>PORT_NUMBER</code><attribute>65432</attribute></attribute>
+    </attributes>
+  </connection>
+  <connection>
+    <name>TMA_DEV_WIP_DEMOWEBDETAILS</name>
+    <server>localhost</server>
+    <type>POSTGRESQL</type>
+    <access>Native</access>
+    <database>TMA_DEV_V01</database>
+    <port>5555</port>
+    <username>postgres</username>
+    <password>Encrypted 2becb9cab18c2c594aa0abd67d180ab8b</password>
+    <servername/>
+    <data_tablespace/>
+    <index_tablespace/>
+    <attributes>
+      <attribute><code>PORT_NUMBER</code><attribute>5555</attribute></attribute>
     </attributes>
   </connection>
   <order>
